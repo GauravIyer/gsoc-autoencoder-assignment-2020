@@ -14,9 +14,9 @@ The raw data was put into Pandas dataframes for a glimpse into its structure, an
 The architecture used was the same as in the reference project and thesis by Mr. Eric Wulff, with minor adjustments. The tanh activations were replaced by **Leaky ReLUs**, and the number of nodes per layer were increased slightly, mostly to match with convention.
 
 ## Hyperparameters
-Batch size: 64 (chosen arbitrarily, with the upside that lower batch sizes give more accurate loss curves)
+Batch size: 64 (chosen arbitrarily, with the upside that lower batch sizes give more accurate loss curves).
 
 Optimizer: Adam with a leaerning rate scheduler starting at 1e-3 and decreased by a factor of 10 at certain checkpoints during training.
 
-Loss Function: Mean Squared Error
+Loss Function: Mean Squared Error.
 
